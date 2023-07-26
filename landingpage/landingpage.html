@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agriculture</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <style>
+    body {
+  background-image: url(agri.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  margin-top:10px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+}
+.contact-content {
+        background: linear-gradient(to right,  rgb(52, 53, 53) 0%, white 50%,rgb(101, 201, 235) 100%); 
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 350px;
+    height: 325px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+img {
+        width: 350px;
+        padding: 1px;
+        border: 5px solid #021a40;
+      }
+      .imageborder {
+  float: left;
+  
+}
+      .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row1 {
+  display: flex;
+}
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row2 {
+  display: flex;
+}
+
+.imageborder {
+  flex: 100%;
+  padding: 5px;
+}
+@media screen and (max-width: 500px) {
+  .imageborder {
+    width: 250px;
+  }
+}
+</style>
+</head>
+<body>
+  <header>  
+              
+    <div class="navbar">
+      <div class="content">
+        <nav></nav>
+      <ul>
+        <li ><a href=#Home><b>Home</b></a></li>
+        <li ><a href=#About><b>About</b></a></li>
+        <li ><a href=#Gallery><b>Gallery</b></a></li>
+        <li ><a href=Contact.html><b>Contact</b></a></li>
+        
+                    
+      </ul>
+    </nav>
+      </div>
+    </div>
+    
+       <h1 class="heading"></h1>
+        <div class="card">
+
+          <h1 class="fancy-quotes"><i style="color:black;font-style: inherit;">“The farmer has to be an optimist or he wouldn't still be a farmer.”</i></h1>
+          
+          
+          <button class="cssbuttons-io-button"><b href="Home">Read More</b>
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
+            </div>
+          </button>
+        </div>
+       
+            <section id="About">
+                <div id="inf">
+                    <div class="info">
+                      <h1>Why Agricultue is important?</h1>  
+                        <p id="para">AGRICULTURE <br> <span></span></p>
+                    </div>
+                    
+               <p> Agriculture is the practice of cultivating natural resources to sustain human life and provide economic gain. 
+                It combines the creativity, imagination, and skill involved in planting crops and raising animals with modern 
+                production methods and new technologies.<br>
+                Agriculture is also a business that provides the global economy with commodities: basic goods 
+                used in commerce, such as grain, livestock, dairy, fiber, and raw materials for fuel.<br>
+                <br>
+                Providing Raw Materials
+                Raw materials are a core building block of the global economy. Without access to raw 
+                materials, manufacturers can’t make products. Nonagricultural raw materials include 
+                steel, minerals, and coal. However, many raw materials derive from agriculture — from 
+                lumber for construction materials to herbs for adding flavor to food. Corn, for example, 
+                is used to produce foods and serves as a foundation for ethanol, a type of fuel. Another 
+                example is resins: plant products used in various industrial applications, such as adhesives,
+                 coatings, and paints used in construction.<br>
+                </p>
+                </div>
+            </section>
+            <section id="gallery">
+              
+                <p id="para">IMAGES <br> <span></span></p>
+                <div class="row">
+                <div class="imageborder">
+                <img src="img1.jpg">
+                </div>
+                <div class="imageborder">
+                <img src="img9.jpg">
+                </div>
+                <div class="imageborder">         
+                <img src="img3.jpg">
+                </div>
+                </div>
+                <div class="row1">
+                <div class="imageborder">
+                <img src="img4.jpg">
+                </div>
+                <div class="imageborder">
+                <img src="img5.jpg">
+                </div>
+                <div class="imageborder">
+                <img src="img6.jpg">
+                </div>
+                </div>
+                <div class="row2">
+              <div class="imageborder">
+                <img src="img7.jpg">  
+                </div>
+                <div class="imageborder">         
+                <img src="img8.jpg">
+                </div>
+                <div class="imageborder">
+                <img src="img10.jpg">
+                </div>
+            </div>
+            </section>
+          </header>
+  
+        
+       
+<section id="contact">
+  <h2>Contact Me<br></h2>
+  <form action="#">
+  <div class="contact-content">
+      <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="nam" required>
+  </div>
+  <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+  </div>
+  <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" rows="4" required></textarea>
+  </div>
+  <input type="reset" class="button" value="Send Message">
+  </div>
+  </form>
+</section>
+
+
+        </footer>
+
+</body>
+</html>

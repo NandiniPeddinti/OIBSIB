@@ -1,0 +1,335 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+      background-image: url(agri1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      width: 100%;
+      margin-top:10px;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; 
+    
+  }
+  .heading {
+    margin-top: -50px;
+    margin-left: 25px;
+    font-size: 75px;
+    font-family: "Lobster", cursive;
+  }
+  .card {
+    padding:18px;
+    margin-bottom:75px;
+    margin-left: 105px;
+    width: 390px;
+    height: 444px;
+   background: rgba(256,256,256,0.4);
+   
+  }
+  
+  
+  p{
+    font-family: "Great Vibes", cursive;
+    font-size: 24px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .content{
+    margin-left:59%;
+    font-size:17px;
+  }
+  button b:after {
+    content: '\00bb';  /* CSS Entities. To use HTML Entities, use →*/
+    position: absolute;  opacity: 0;  top: 0;  right: -20px;  transition: 0.5s;}
+    .button:hover b {  padding-right: 25px;}
+    .button:hover b:after {  opacity: 1;  right: 0;}
+  .navbar {
+    color: black;
+    padding: 20px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color:black;
+  }
+  
+  .navbar li {
+    margin-right: 15px;
+  }
+  
+  .navbar a {
+    color:black;
+    text-decoration: none;
+    padding:15px;
+    border-radius: 10px;
+  }
+  
+  .navbar a:hover {
+    background-color: aliceblue;
+  }
+  
+  .nav-color{
+    background-color:lightblue;
+    color:blue;
+    font-weight: bold;
+    font-size: medium;
+    height:50px;
+    padding:2px;
+}
+ul li:hover{
+    box-shadow: 2px 2px 2px purple;
+}
+  .hero {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  #register form {
+    box-shadow: 1px 1px 3px grey;
+    width:40%;
+    height:90%; 
+    margin-left:400px;    
+    }
+    #form-input input{
+        width:50%;
+        padding: 12px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        margin-left:80px;
+        }
+        input[type="submit"] {
+        background-color:#125688;
+        color: white;
+        padding: 12px 20px;
+        margin: 20px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        }
+        input[type="submit"]:hover{
+        background-color: #bb0000;
+        }
+  /* Footer */
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  #btn{
+    color:black;
+    font-weight: bold;
+    background-color:maroon;
+    width:85px;
+    height:35px;
+    letter-spacing: 2%;
+    border-radius:20px;
+    text-align: center;
+}
+#btn:hover{
+    background-color:rgb(255, 71, 77);
+}
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .cssbuttons-io-button {
+    background: palevioletred;
+    color: black;
+    font-family: "Great Vibes", cursive;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #A370F0;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    margin-left:30%;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: lightcyan;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #A370F0;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: palevioletred; 
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+  
+  .social-icons {
+    list-style: none;
+  display: flex;
+  align-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    margin: 0 15px; /* Increase the space between icons */
+  }
+  
+  .social-icons a {
+    color: whitesmoke;
+    font-size: 15px; /* Increase the icon size */
+    transition: color 0.3s ease; /* Add transition for smooth hover effect */
+  }
+  
+  .sc a:hover {
+    color: #007bff; /* Change the color on hover */
+  }
+  
+  .fo{
+    margin-left:45%;
+  } 
+  
+  .fo a {
+    text-decoration: none;
+    padding:10px;
+    border-radius: 10px;
+  }
+  
+  .fo a:hover {
+    text-decoration: none;
+    background-color: aliceblue;
+    color:black;
+  }
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+  width: 250px;
+  padding: 5px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.form-group textarea {
+  width: 250px;
+  padding: 5px;
+  height: 100px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  border: 1px solid black;
+} 
+
+.button {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #555;
+}
+section {
+  padding: 20px;
+  /* background-color: #94f1f1; */
+  margin-top: 2px;
+  width: 100%;
+  background-color: azure;
+  
+      overflow-x: hidden; 
+}

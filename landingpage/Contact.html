@@ -1,0 +1,77 @@
+<html>
+    <head>
+<style>
+    
+  
+  
+
+    .form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 250px;
+    padding: 5px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.form-group textarea {
+    width: 250px;
+    padding: 5px;
+    height: 100px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    border: 1px solid black;
+} 
+   section {
+  padding: 20px;
+  /* background-color: #94f1f1; */
+  margin-top: 2px;
+  width: 100%;
+  background-color: azure;
+  
+      overflow-x: hidden; 
+}
+ .contact-content {
+        background: linear-gradient(to right,  rgb(52, 53, 53) 0%, white 50%,rgb(101, 201, 235) 100%); 
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 350px;
+    height: 325px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+</style>
+    </head>
+    <body>
+        <section id="contact">
+            <h2 style="text-align: center;">Contact Me<br></h2>
+            <form action="#">
+            <div class="contact-content" style=" background: linear-gradient(to right,  rgb(52, 53, 53) 0%, white 50%,rgb(101, 201, 235) 100%);">
+                <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="nam" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" required></textarea>
+            </div>
+            <input type="reset" class="button" value="Send Message">
+            </div>
+            </form>
+        </section>
+    </body>
+</html>

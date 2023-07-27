@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nandini - Personal Portfolio Website</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/e6b8371d90.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/images/logo.png" alt="logo image" width="5px"height="60px" class="logo" />
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Works</a></li>
+                    <li><a href="#works">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>
+                    Hello Everyone, <br>I'm <span>Nandini</span> <br /></h1>
+                    <h2>Btech,CSE Graduate</h2>
+                    <h1>Front End Designer</h1>
+                    <button class="cssbuttons-io-button"><b href="About">More About Me</b>
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path></svg>
+                          </div>
+                        </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/images/phone-background.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am dedicated to Third Year Computer Science Student at Anits College.</p>
+                      <p>Apart my Technical Skills,I posses problem solving skills and Communication Skills.</p>
+                       <p>I am a passionate web developer with expertise in HTML, CSS, JavaScript, and PHP. I have worked on various projects and have a strong understanding of front-end development.</p>
+            <p>I have completed several online courses to expand my skills. I am constantly learning and exploring new technologies to stay up-to-date with the latest trends in web development.</p>
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                       
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            
+                            <li><span>Web Development</span><br>Web app development</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2013-2018</span><br>Z.P.H.S Gonakapadu</li>
+                            <li><span>2018-2021</span><br>Andhra Polytechnic</li>
+                            <li><span>2021-2024</span><br>Anil Neerukonda Institute Of Technology & Sciences</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <h3>BLOOD BANK MANAGEMENT SYSTEM</h3>
+                    <p>Mini application developed using HTML, CSS, JavaScript, PHP, and MySQL.</p>
+                    <a href="#">More About Project</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <h3>FACEBOOK</h3>
+                    <p>Mini application developed using HTML, CSS, JavaScript, PHP, and MySQL.</p>
+                    <a href="#">More About Project</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <h3>TIMETABLE MANAGEMENT SYSTEM</h3>
+                    <p>Mini application developed using HTML, CSS, JavaScript, Nodejs, and MySQL.</p>
+                    <a href="#">More About Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Works section -->
+    <div id="works">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="works-list">
+                <div class="work">
+                    <img src="assets/images/work-1.png" alt="work-1">
+                    <div class="layer">
+                        <h3>Blood Bank App</h3>
+                        <p>Donate Your Blood and Make a Difference.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/work-2.png" alt="work-2">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p></p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/work-3.png" alt="work-3">
+                    <div class="layer">
+                        <h3>Time Table App</h3>
+                        <p>The main aim of this simple Nodejs project is to develop web application in college submission.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Peddintinandu2003@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone-flip"></i>7287887901</p>
+                    <p><i class="fa-brands fa-instagram"></i>onlyme_2003</p>
+                    <p><i class="fa-brands fa-linkedin"></i>linkedin.com/in/nandu123</p>
+                    <div class="social-icons">
+                       <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                       <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="assets/nandu_resume.pdf" class="btn btn2" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                    <div class="contact-right">
+                        <h1 class="sub-title">Message Me</h1>
+                        <form action="">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>

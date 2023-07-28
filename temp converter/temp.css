@@ -1,0 +1,41 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color:azure;
+    background-image: url("temp.jpg");
+    background-repeat: no-repeat;
+    background-size: 1300px 900px;
+}
+.my-container {
+    margin-top: 6rem;
+    width: 50%;
+    height: 400px;
+    background-color:azure;
+    box-shadow: 10px 10px 10px 10px rgb(32, 31, 31);
+}
+
+.headone {
+    font-size: 24px;
+}
+
+.inputone {
+    width: 8rem;
+    background-color: rgb(32, 31, 31);
+}
+
+.selectone {
+    background-color: rgb(32, 31, 31);
+    width: 8rem;
+}
+
+.inputtwo {
+    background-color: rgb(32, 31, 31);
+
+}
+
+
+@media (max-width: 600px) {
+    .my-container{
+        width: 85% !important ;
+    }
+}
